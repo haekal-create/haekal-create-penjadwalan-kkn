@@ -17,10 +17,8 @@ You can run the scheduling algorithms directly in your browser without any local
 
 | Module | Description | Run in Colab |
 | :--- | :--- | :--- |
-| **Daily Task Scheduler** | Algorithms for Kitchen, Market, and Cleaning duties. | [![Open In Colab](https://colab.research.google.com/drive/1BNX66-cQwli8xAbwziVepdLVF7mH31nH?usp=sharing)] |
-| **Drying Duty Scheduler** | Time-series based rotation for specific chores. | [![Open In Colab](https://colab.research.google.com/drive/1ArtQTbamvr66Wf8dOkNLui8klKyjtyGS?usp=sharing)]|
-
-*(Note: Replace the URL placeholders above with the actual shareable links from your Google Colab).*
+| **Daily Task Scheduler** | Algorithms for Kitchen, Market, and Cleaning duties. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1BNX66-cQwli8xAbwziVepdLVF7mH31nH?usp=sharing) |
+| **Drying Duty Scheduler** | Time-series based rotation for specific chores. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ArtQTbamvr66Wf8dOkNLui8klKyjtyGS?usp=sharing) |
 
 ---
 
@@ -39,12 +37,9 @@ A deterministic time-series scheduler built with `pandas` and `datetime` to mana
 
 ---
 
-## 📊 Data Outputs (Exported CSVs)
-The scripts automatically compile the generated schedules and export them into clean, ready-to-print CSV files:
-* 📄 `jadwal_harian.csv` - The complete 40-day matrix for daily tasks.
-* 📄 `rekap_beban_kerja.csv` - An analytical summary proving equal workload distribution (40 total shifts per member).
-* 📄 `jadwal_piket_jemur.cs[jadwal_harian_piket_kkn (1).xlsx](https://github.com/user-attachments/files/29162352/jadwal_harian_piket_kkn.1.xlsx)
-v` - The formatted timeline for the 5-day rotation groups.
+## 📊 Data Outputs
+The scripts automatically compile the generated schedules. The final exported output is available here:
+* 📄 **[jadwal_harian_piket_kkn.xlsx](https://github.com/user-attachments/files/29162352/jadwal_harian_piket_kkn.1.xlsx)** - The complete generated schedule matrix.
 
 ## 🛠️ How to Run Locally
 
